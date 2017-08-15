@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@drawable/merge_two"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+        <ImageView
+            android:background="@color/whiter"
+            android:padding="2dp"
+            android:id="@+id/imgPerson"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/tvPersonName"
+            android:maxLines="1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imgPerson"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/whiter"
+            android:text="Gokul Kalagara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvPersonName"
+            android:textColor="@color/whiter"
+            android:text="Just Active Now!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

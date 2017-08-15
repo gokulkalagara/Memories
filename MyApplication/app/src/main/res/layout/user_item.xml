@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:id="@+id/view"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.maya.memories.models.CircularView
+            android:id="@+id/imgPerson"
+            android:src="@drawable/fb"
+            android:layout_margin="4dp"
+            android:layout_centerVertical="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+        <TextView
+            android:maxLines="1"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="65dp"
+            android:id="@+id/tvPersonName"
+            android:textSize="17sp"
+            android:text="Maya is Awesome"
+            android:textColor="@color/text_black_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_below="@id/tvPersonName"
+            android:id="@+id/ll2"
+            android:layout_marginTop="-2dp"
+            android:layout_marginLeft="65dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:textColor="@color/light_gray_text"
+                android:id="@+id/tvUserEmail"
+                android:text="Hi may an j c djc djbc dcjd jc d cdjc dj cd jd "
+                android:textSize="10sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="1dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="68dp"
+            android:layout_below="@+id/ll2"
+            android:background="@color/hashpool"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+

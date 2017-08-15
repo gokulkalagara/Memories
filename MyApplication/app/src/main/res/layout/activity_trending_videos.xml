@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiter"
+    tools:context="com.maya.memories.activities.ChatActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlHead"
+        android:elevation="4dp"
+        android:background="@color/whiter"
+        android:layout_width="match_parent"
+        android:layout_height="95dp">
+        <RelativeLayout
+            android:id="@+id/llhead"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:padding="2dp"
+            android:background="@drawable/fill_green_circle"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/imgPerson"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                app:srcCompat="@drawable/ic_videos"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/llhead"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/text_black_light"
+            android:text="Videos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_below="@+id/rlHead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresher">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <ProgressBar
+        android:layout_below="@+id/rlHead"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"/>
+
+
+</RelativeLayout>

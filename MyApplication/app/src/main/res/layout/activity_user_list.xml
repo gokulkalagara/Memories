@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiter"
+    android:focusableInTouchMode="true"
+    tools:context="com.maya.memories.activities.ChatActivity">
+
+    <RelativeLayout
+        android:focusableInTouchMode="true"
+        android:elevation="4dp"
+        android:background="@color/whiter"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+        <EditText
+            android:id="@+id/etSearch"
+            android:maxLines="1"
+            android:focusableInTouchMode="true"
+            android:background="@drawable/editext_new"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:textColor="@color/light_gray_text"
+            android:textColorHint="@color/light_gray_text"
+            android:layout_marginLeft="15dp"
+            android:hint="search..."
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresher">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

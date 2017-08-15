@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "259338867053",
+    "firebase_url": "https://memories-f5e41.firebaseio.com",
+    "project_id": "memories-f5e41",
+    "storage_bucket": "memories-f5e41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259338867053:android:10b0c95ce49c5a3b",
+        "android_client_info": {
+          "package_name": "com.maya.memories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259338867053-gr2rk4tefcran3v1nnu4h1i9o7pcsrev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKKfR7qrk9Iv-VmnauxtLcVvOiV046jAQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

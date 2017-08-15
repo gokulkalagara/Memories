@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+   <ak.sh.ay.oblique.ObliqueView
+       android:id="@+id/obliqueView"
+       android:layout_width="match_parent"
+       android:layout_height="280dp"
+       android:scaleType="centerCrop"
+       android:src="@drawable/back"
+       app:ending_slant_angle="0"
+       app:starting_slant_angle="20" />
+   <RelativeLayout
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:background="@android:color/transparent"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <com.maya.memories.models.CircularView
+          android:id="@+id/profile_pic"
+          android:padding="5dp"
+          android:src="@drawable/memories"
+          android:layout_centerHorizontal="true"
+          android:layout_width="90dp"
+          android:layout_height="90dp" />
+
+      <TextView
+          android:layout_centerHorizontal="true"
+          android:maxLines="1"
+          android:id="@+id/tvUserName"
+          android:padding="5dp"
+          android:layout_below="@+id/profile_pic"
+          android:textColor="@color/new_black"
+          android:textStyle="bold"
+          android:textSize="18dp"
+          android:text="Gokul Kalagara"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <TextView
+          android:layout_centerHorizontal="true"
+          android:maxLines="1"
+          android:text="gokulkalagara@gmail.com"
+          android:layout_below="@+id/tvUserName"
+          android:id="@+id/tvUserEmail"
+          android:textColor="@color/gray"
+          android:textSize="11sp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+   </RelativeLayout>
+   <!--<RelativeLayout-->
+       <!--android:gravity="center"-->
+       <!--android:layout_gravity="center"-->
+       <!--android:background="@android:color/transparent"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content">-->
+       <!--<com.maya.memories.models.CircularView-->
+           <!--android:id="@+id/profile_pic"-->
+           <!--android:padding="5dp"-->
+           <!--android:src="@drawable/memories"-->
+           <!--android:layout_centerHorizontal="true"-->
+           <!--android:layout_width="60dp"-->
+           <!--android:layout_height="60dp" />-->
+
+       <!--<TextView-->
+           <!--android:layout_centerHorizontal="true"-->
+           <!--android:maxLines="1"-->
+           <!--android:id="@+id/tvUserName"-->
+           <!--android:padding="5dp"-->
+           <!--android:layout_below="@+id/profile_pic"-->
+           <!--android:textColor="@color/white"-->
+           <!--android:textStyle="bold"-->
+           <!--android:textSize="20dp"-->
+           <!--android:text="Gokul Kalagara"-->
+           <!--android:layout_width="wrap_content"-->
+           <!--android:layout_height="wrap_content" />-->
+       <!--<TextView-->
+           <!--android:layout_centerHorizontal="true"-->
+           <!--android:maxLines="1"-->
+           <!--android:text="gokulkalagara@gmail.com"-->
+           <!--android:layout_below="@+id/tvUserName"-->
+           <!--android:id="@+id/tvUserEmail"-->
+           <!--android:padding="5dp"-->
+           <!--android:textColor="@color/black"-->
+            <!--android:textSize="15sp"-->
+           <!--android:layout_width="wrap_content"-->
+           <!--android:layout_height="wrap_content" />-->
+   <!--</RelativeLayout>-->
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="3"
+    tools:context="com.maya.memories.fragments.DescriptionImageViewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+       android:layout_above="@+id/rlHead"
+       android:padding="20dp"
+       android:src="@drawable/main_head"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_above="@+id/rlHead"
+        android:src="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_above="@+id/rlHead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageChat"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_chat"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+
+        <ImageView
+            android:id="@+id/imageNoti"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_alert"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+
+        <ImageView
+            android:id="@+id/imageLove"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_memories"
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlHead"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/tvHead"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:text="GET NOTIFY"
+            android:textColor="@color/text_black_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvMessage"
+            android:textSize="15sp"
+            android:text="On your specific promotions\nNever missed your desirable items!"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/light_gray_text"
+            android:layout_below="@id/tvHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#006AB6</color>
+    <color name="colorAccent">#FBBC05</color>
+    <color name="colorDark">#FDDD05</color>
+    <color name="primary">#FBBC05</color>
+    <color name="app_bg">#353D52</color>
+    <color name="new_black">#515267</color>
+    <color name="new_other">#1DC7B7</color>
+    <color name="new_app_bg">#DD6460</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textHeader">#15BBB5</color>
+    <color name="textHeader1">#0193E6</color>
+
+    <color name="textRed">#F44D4D</color>
+    <color name="textBrown">#4090A7</color>
+    <color name="facebook_color">#3B5998</color>
+    <color name="black">#000000</color>
+    <color name="thick_blue">#3B5998</color>
+    <color name="gray">#505050</color>
+    <color name="lightgray">#707070</color>
+    <color name="lightgray1">#909090</color>
+
+    <color name="linkdin">#007AB6</color>
+
+    <color name="whiter">#FFFFFF</color>
+    <color name="side_bar">#1E88E5</color>
+    <color name="hashpool">#f0f0f0</color>
+    <color name="light_white">#FFFFF0</color>
+    <color name="new_orange">#F25C43</color>
+    <color name="new_love">#FC7D63</color>
+
+    <color name="rating_accent">#0087d2</color>
+    <color name="recording_accent">#F65159</color>
+    <color name="time_accent">#db83d3</color>
+    <color name="stat_display">#000000</color>
+    <color name="primary_dark">#ffa500</color>
+
+    <color name="stat_accent">#0087d2</color>
+    <color name="accent">#0087d2</color>
+    <color name="button_facebook">#282E8C</color>
+    <color name="button_twitter">#1B92F2</color>
+    <color name="button_microsoft">#376897</color>
+
+    <color name="divider">#B6B6B6</color>
+    <color name="activated_color">#E8E8E8</color>
+    <color name="window_background">#FFF5F5F5</color>
+
+    <color name="tab_seletced">#9B9B9B</color>
+    <color name="tab_unselected">#CDCDCD</color>
+    <color name="text_black_light">#5C5A6A</color>
+    <color name="button_green">#2FD5A1</color>
+    <color name="light_gray_text">#9E9CAA</color>
+    <color name="voilet">#36437D</color>
+</resources>

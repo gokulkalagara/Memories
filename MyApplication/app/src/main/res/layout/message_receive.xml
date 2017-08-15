@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="90dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_gravity="left"
+    android:background="@drawable/d_send"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="left"
+        android:id="@+id/tvMessage"
+        android:textColor="@color/gray"
+        android:text="Maya is kjs j d d d d kjc dmnkn c dd ckd\n snc schs csjc scjs csmc scmsmcms csmcskjkjc sm mcscnsncnsnsc"
+        android:layout_marginTop="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginBottom="2dip"
+        android:paddingLeft="10dip"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_gravity="right"
+        android:padding="2dp"
+        android:textColor="@color/text_black_light"
+        android:text="11:56 AM"
+        android:textSize="7sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    </LinearLayout>
